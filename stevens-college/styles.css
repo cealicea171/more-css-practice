@@ -1,11 +1,15 @@
 
 .btn {
 border: 1px solid #a6093d;
-padding: 5px 20px;
+padding: 10px 20px;
 background: #a6093d;
 color: white;
 text-decoration: none;
-margin-right: 10px;
+margin: 35px;
 font-size: 15px;
 text-transform: uppercase;
 }
+
+
+
+

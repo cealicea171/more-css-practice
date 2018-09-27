@@ -1,4 +1,4 @@
-/* Add your CSS here */
+
 .orangeheader{
 
 color:orange;
@@ -6,13 +6,19 @@ color:orange;
 .gray{
 color:gray;
 }
-.blackheader{
 
+.blackheader{
 color:black;
 }
-td, th{
 
+
+td, th{
 text-align:center;
 padding:8px;
 border: 1px solid #dddddd;
+}
+
+a{
+color:blue;
+text-decoration:none;
 }

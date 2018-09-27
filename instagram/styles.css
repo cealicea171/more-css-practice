@@ -3,6 +3,7 @@ h1 {
     font-weight: 400;
     margin-bottom: 20px;
 }
+
 h2 {
     display: block;
 }
@@ -13,11 +14,9 @@ color:black;
 margin-left: 175px;
 margin-top:-550px;
 height:630px;
-
 }
 
 .sidenav {
-
 width:175px;
 height:500px;
 margin-top: 25px;
@@ -25,7 +24,6 @@ color:black;
 padding-top:60px;
 background-color:white;
 margin-top:50px;
-
 }
 
 .sidenav a{
@@ -36,13 +34,16 @@ padding-bottom:8px;
 font-size:20px;
 display:block;
 margin-left:15px;
-
-
-
 }
 
 .sidenav a:hover{
 background-color:lightgray;
 color: black;
 margin-left:25px;
+}
+
+.about{
+color:gray;
+margin-top:-60px; 
+margin-left:9px;
 }
