@@ -2,73 +2,62 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8" />
+	<title>AirBNB</title>
 
-<title>AirBNB</title>
-<link href="styles.css" rel="stylesheet" type="text/css" />
+	 <link href="styles.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
-<div class="header">
+ <div class="header">
 
-<h1>Book Unique homes and experiences.</h1>
+   <h1>Book Unique homes and experiences.</h1>
 
-</div>
-<div class="main">
+ </div>
+
+<form action="#">
+      <label>
+        Where
+        <input type="text" placeholder="Anywhere" />
+      </label>
+
+      <label class="halfwidth left">
+        Check in
+        <input type="date" />
+      </label>
+
+      <label class="halfwidth right">
+        Check out
+        <input type="date" />
+      </label>
+
+      <label>
+        Guests
+        <input type="number" placeholder="1 guest" min="1" max="20"/>
+      </label>
+
+      <input type="submit" value="Search" />
+    </form>
+
+    <section>
+      <h2>Explore Airbnb</h2>
+
+      <a href="#">
+       <img src="homes.jpeg" height="100" width="100"/>
+        Homes
+      </a>
+
+      <a href="#">
+       <img src="experiencesjpeg.jpeg" height="100" width="100" />
+        Experiences
+      </a>
 
 
-<h5 class="where">Where:</h5>
-
-<input type="text" value="Anywhere">
-
-<table>
-
-<tr>
-<td>
-<h5>Check in:</h5>
-</td>
-<td>
-<h5>Check Out:</h5>
-</td>
-</tr>
-<tr>
-<td>
-<input type="text" class="dates" value="mm/dd/yyyy"></input>
-</td>
-<td>
-<input type="text" class="dates" value="mm/dd/yyyy"></input>
-</td>
-</tr>
-
-</table>
-
-<h5>Guests:</h5>
-<select>
-<option>1 Guest</option>
-</select>
-
-<button>Search</button>
-<table align="center">
-<h4>Explore AirBnb</h4>
-
-<tr >
-<td>
-<img src="homes.jpeg">
-</td>
-<td>
-<h5 style="color:black">Homes</h5>
-</td>
-<td>
-<img src="experiencesjpeg.jpeg">
-</td>
-<td>
-<h5 style=color:black;>Experiences</h5>
-</td>
-<td>
-<img src="restaurant.jpeg">
-</td>
-<td>
-<h5 style="color:black;">Restaurants</h5>
-</td>
-</tr>
+      <a href="#">
+               <img src="restaurant.jpeg" height="100" width="100" />
+Restaurants
+      </a>
+    </section>
 
 
 </table>

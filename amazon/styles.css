@@ -12,13 +12,24 @@ color:black;
 }
 
 
-td, th{
+section article{
 text-align:center;
+display:inline-block;
+
 padding:8px;
 border: 1px solid #dddddd;
 }
 
-a{
+section article a{
 color:blue;
 text-decoration:none;
+display:block;
 }
+
+section{
+
+position:relative;
+box-sizing:border-box;
+padding-top: 30px;
+}
+ 
