@@ -1,16 +1,18 @@
 
 .orangeheader{
+ccolor:orange;
+}
 
-color:orange;
-}
 .gray{
-color:gray;
+ color:gray;
 }
+
 h3 {
   color: blue;
 }
+
 .blackheader{
-color:black;
+ color:black;
 }
 
 main section {
@@ -23,7 +25,7 @@ main section {
 }
 
 main section article {
-float: left;
+  float: left;
   padding-left: 5%;
   padding-right: 5%;
   margin-top: 10px;
