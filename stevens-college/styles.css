@@ -1,4 +1,7 @@
-
+ul {
+list-style-type: none;
+font-size: 35px;
+}
 .btn {
 border: 1px solid #a6093d;
 padding: 10px 20px;
@@ -6,9 +9,19 @@ background: #a6093d;
 color: white;
 text-decoration: none;
 margin: 35px;
-font-size: 15px;
+font-size: 20px;
 text-transform: uppercase;
 }
+ nav {
+text-transform: uppercase;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+p { font-size: 25px;
+}
+
+
 
 
 

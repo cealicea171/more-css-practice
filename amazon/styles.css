@@ -6,30 +6,26 @@ color:orange;
 .gray{
 color:gray;
 }
-
+h3 {
+  color: blue;
+}
 .blackheader{
 color:black;
 }
 
-
-section article{
-text-align:center;
-display:inline-block;
-
-padding:8px;
-border: 1px solid #dddddd;
+main section {
+  border-top: 2px solid lightgray;
+  padding-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
 }
 
-section article a{
-color:blue;
-text-decoration:none;
-display:block;
+main section article {
+float: left;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: 10px;
 }
 
-section{
-
-position:relative;
-box-sizing:border-box;
-padding-top: 30px;
-}
- 

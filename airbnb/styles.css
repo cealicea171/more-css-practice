@@ -47,16 +47,13 @@ form input {
   font-size: 1rem;
 }
 
-.halfwidth {
-  width: 50%;
-  float: left;
-}
-.halfwidth.right input {
+
+.first label input {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
   border-left: none;
 }
-.halfwidth.left input {
+.second label input {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
@@ -69,7 +66,7 @@ form input[type="submit"] {
 }
 
 a {
-  display: inline-block;
+   display: inline-block;
   border: 1px solid #ccc;
   text-decoration: none;
   padding: 2.5rem 0 2rem 110px;
